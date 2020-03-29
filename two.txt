@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+	outline: none;
+}
+body{
+	background: #0e395a;
+}
+button{
+	width:220px;
+	height:80px;
+	display: block;
+	margin:200px auto;
+	background:#4CAF50;
+	font-size:19px;
+	font-family:monospace;
+	color:#fff;
+	border:none;
+	cursor: pointer;
+	box-shadow:0 0 20px 5px #4caf5063;
+	border-radius:4px;
+	position: relative;
+	overflow: hidden;
+}
+button:hover div{
+	transform: translateX(400px) rotate(120deg);
+}
+button div{
+	width:110%;
+	height:110%;
+	position: absolute;
+	top:-50%;
+	left:-80%;
+	transform: rotate(120deg);
+	background:#fff;
+	transition: 1s;
+}
+button .second{
+	top:-40%;
+	left:-90%;
+	height:70%;
+	transition: 2s;
+}
